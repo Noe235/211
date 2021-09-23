@@ -1,0 +1,21 @@
+body {
+  background-color: #FF4141;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+h2{
+  color: #00ff00;
+  background-color: #000000;
+  padding-left: 50px;
+  margin-left: 10% ;
+  margin-right: 10% ;
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
