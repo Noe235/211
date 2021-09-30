@@ -1,9 +1,12 @@
 body {
-  background-color: #FF4141;
+  background-color: #FF4141; /*url("name");
+  /* background-repeat:  */
 }
 
 h1 {
   color: #FFFFFF;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Ephesis', cursive;
 }
 
 h2{
@@ -12,10 +15,20 @@ h2{
   padding-left: 50px;
   margin-left: 10% ;
   margin-right: 10% ;
+  text-decoration: underline;
+
 
 }
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+p.specialparagraph{
+  color:#FFFFFF;
+  text-align:center;
+  padding-left: 10px;
+  margin: 5px;
+  border: 10px inset #505050;
+  border-radius: 20px;
 }
