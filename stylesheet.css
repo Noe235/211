@@ -1,5 +1,5 @@
 body {
-  background-color: #FF4141; /*url("name");
+  background-color:  #7E4EAC; /*url("name");
   /* background-repeat:  */
 }
 
@@ -10,12 +10,13 @@ h1 {
 }
 
 h2{
-  color: #00ff00;
+  color: #95C8D8;
   background-color: #000000;
-  padding-left: 50px;
+padding: 10px;
   margin-left: 10% ;
   margin-right: 10% ;
   text-decoration: underline;
+  text-align: center;
 
 
 }
@@ -28,7 +29,7 @@ p.specialparagraph{
   color:#FFFFFF;
   text-align:center;
   padding-left: 10px;
-  margin: 5px;
+  margin:10px;
   border: 10px inset #505050;
   border-radius: 20px;
 }
