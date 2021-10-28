@@ -33,3 +33,10 @@ p.specialparagraph{
   border: 10px inset #505050;
   border-radius: 20px;
 }
+
+div.mydiv {
+  background-color:#002020;
+color: #FFFFFF;
+width: 60%;
+
+}
