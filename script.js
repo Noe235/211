@@ -48,6 +48,12 @@ function keyboard(event) {
   if (event.keyCode === 39) {
     imageHorizontal -= 3;
   }
+  if (event.keyCode === 65) {
+    let array = document.getElementsByClassName("specialparagraph");
+    for (let i = 0; i < array.length; i++) {
+      array[i].style.color = "#FFF888";
+    }
+  }
   document.getElementById("dynamicPicture").style.right = imageHorizontal + "px";
   document.getElementById("dynamicPicture").style.bottom = imageVertical + "px";
   // window.alert("Hello World");
