@@ -1,0 +1,46 @@
+body {
+  background-color:  #7E4EAC;
+}
+
+div {
+
+}
+
+div.header {
+    background-color: #FFFFFF;
+
+}
+ul{
+  text-align: right;
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+  background-color:#FFFFFF
+
+}
+
+li{
+  display: inline;
+}
+
+/* ----------------------------above is the menu--------------------------------------- */
+div.title{
+  text-align: center;
+  margin: 50px;
+  padding: 100px;
+
+}
+
+
+div.video{
+  text-align: center;
+  margin: 50px;
+  border: 20px solid red;
+  padding: 100px;
+  background-color: #D4D2F3;
+}
+
+div.worker{
+  
+}
