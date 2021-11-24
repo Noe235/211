@@ -25,37 +25,6 @@ li{
 }
 
 /* ----------------------------above is the menu--------------------------------------- */
-div.title{
-  text-align: center;
-  margin: 50px;
-  padding: 100px;
-
-}
-
-
-div.video{
-  text-align: center;
-  margin: 50px;
-  border: 20px solid red;
-  padding: 100px;
-  background-color: #D4D2F3;
-}
-
-div.worker{
-
-}
-div.about{
-  margin: 50px;
-  padding: 100px;
-}
-div.highlight{
-  text-align: center;
-  margin: 50px;
-  border: 20px solid red;
-  padding: 100px;
-  background-color: #D4D2F3;
-
-}
 /* -------------footer------------- */
 div.footer{
 background-color: #0D2F1A;
