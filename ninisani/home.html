@@ -1,63 +1,163 @@
 <!DOCTYPE HTLM>
 <html lang="en" dir="ltr">
   <head>
-    <title>
-    proposal
-    </title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./stylesheetfw.css">
+      <title>
+        Home
+      </title>
+
+      <meta charset="utf-8">
+      <!-- fonts normal one -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100&display=swap" rel="stylesheet">
+      <!-- font Welcome one-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./stylesheetfw.css">
+
 
   </head>
 
   <body>
 
     <div class="header">
-      <ul>
-        <li>Home</li>
-        <li>Workers</li>
-        <li>Schedule</li>
-        <li>Application</li>
-        <li>About</li>
-      </ul>
+      <img src="./assets/image/Ninisanni_logo.png" onclick="window.location.href='./home.html';" class="logo" alt="logo">
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./worker/workers.html">Workers</a></li>
+          <li><a href="./schedule/schedule.html">Schedule</a></li>
+          <li><a href="./about/about.html">About</a></li>
+        </ul>
     </div>
 
     <div class="title">
-      Welcome to Ninisani!
+      <h1 class="welcome">
+        Welcome to Ninisanni!
+      </h1>
     </div>
 
     <div class="video">
-      *insert video here*
+      <iframe width="660" height="415" src="https://www.youtube.com/embed/-dz4iPfNhx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
     </div>
 
-<div class="worker">
-  Meet our workers!
-
-</div>
-
-<!-- insert carousel here -->
+    <div class="worker">
+      <h1>Meet our workers!</h1>
+    </div>
 
 
-<div class="about">
-  about
-</div>
 
-<div class="highlight">
-*insert video here*
-</div>
+    <div class="slide-container">
 
-<div class="footer">
-<div class="credit">
-credits
-</div>
-<div class="disclamer">
-  disclamer
-</div>
-</div>
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 10</div>
+        <a href="./worker/Elira/page.html">
+          <img src="./assets/image/Elira_Pendora.webp" style="width:100%">
+        </a>
+       <div class="text">Elira Pendora</div>
+      </div>
 
+     <div class="mySlides fade">
+       <div class="numbertext">2 / 10</div>
+       <a href="./worker/Pomu/page.html">
+         <img src="./assets/image/Pomu_Rainpuff.webp" style="width:100%">
+       </a>
+       <div class="text">Pomu Rainpuff</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">3 / 10</div>
+       <a href="./worker/Finana/page.html">
+         <img src="./assets/image/Finana_Ryugu.webp" style="width:100%">
+       </a>
+       <div class="text">Finana Ryugu</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">4 / 10</div>
+       <a href="./worker/Selen/page.html">
+         <img src="./assets/image/Selen_Tatsuki.webp" style="width:100%">
+       </a>
+       <div class="text">Selen Tatsuki</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">5 / 10</div>
+       <a href="./worker/Rosemi/page.html">
+         <img src="./assets/image/Rosemi_Lovelock.webp" style="width:100%">
+       </a>
+       <div class="text">Rosemi Lovelock</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">6 / 10</div>
+       <a href="./worker/Rosemi/page.html">
+         <img src="./assets/image/Petra_Gurin.webp" style="width:100%">
+      </a>
+       <div class="text">Petra Gurin</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">7 / 10</div>
+       <a href="./worker/Enna/page.html">
+         <img src="./assets/image/Enna_Alouette.webp" style="width:100%">
+       </a>
+       <div class="text">Enna Alouette</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">8 / 10</div>
+       <a href="./worker/Millie/page.html">
+         <img src="./assets/image/Millie_Parfait.webp" style="width:100%">
+       </a>
+       <div class="text">Millie Parfait</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">9 / 10</div>
+       <a href="./worker/Nina/page.html">
+         <img src="./assets/image/Nina_Kosaka.webp" style="width:100%">
+       </a>
+       <div class="text">Nina Kosaka</div>
+     </div>
+
+     <div class="mySlides fade">
+       <div class="numbertext">10 / 10</div>
+       <a href="./worker/Reimu/page.html">
+         <img src="./assets/image/Reimu_Endou.webp" style="width:100%">
+       </a>
+       <div class="text">Reimu Endou</div>
+     </div>
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+     </div>
+
+
+     <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+     </div>
 
 
   </body>
-
-
-  </script>
+  <div class="footer-container">
+    <div class="footer">
+        <div class="footer-text">
+          <h2>credits</h2>
+          Images from Nijisanji <a href="https://www.nijisanji.jp/en/members">website</a>
+          Ninisanni Logo by <a href="https://www.reddit.com/r/Nijisanji/comments/qc2ygv/the_ninisanni_logo/" > u/BrokenTorpedo </a>
+        </div>
+        <div class="footer-text">
+          <h2>disclamer</h2>
+          This is not a real site.<br>
+          The talents exist the real company is called Nijisanji.<br>
+          This is just a parody site if Ninisanni was a company composed of the talents of the original company.
+        </div>
+    </div>
+  </div>
+<script src="script.js"> </script>
 </html>

@@ -1,90 +1,169 @@
-body {
-  background-color:  #7E4EAC;
+*{
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+color: #162841;
 }
-
-div {
-
+body {
+  background-color: #FDFFFC;
 }
 
 div.header {
-    background-color: #FFFFFF;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  width: 100%;
 
 }
+
+
+div.header a{
+      text-decoration: none;
+  color: #000000;
+    padding: 20px;
+font-size: 1.2rem;
+}
+
+div.header a:hover{
+background-color: rgba(0, 0, 0, 0.3);
+
+}
+
 ul{
   text-align: right;
   list-style-type: none;
   margin: 0px;
-  padding: 20px;
+  padding: 15px;
   overflow: hidden;
-  background-color:#FFFFFF
+  background-color: #FBA605;
 
 }
 
 li{
-  display: inline;
+  display: inline-block;
 }
-
+.logo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+}
 /* ----------------------------above is the menu--------------------------------------- */
-div.title{
-  text-align: center;
-  margin: 50px;
-  padding: 100px;
 
-}
-
-
-div.video{
-  text-align: center;
-  margin: 50px;
-  border: 20px solid red;
-  padding: 100px;
-  background-color: #D4D2F3;
-}
-
-div.worker{
-
-}
-div.about{
-  margin: 50px;
-  padding: 100px;
-}
-div.highlight{
-  text-align: center;
-  margin: 50px;
-  border: 20px solid red;
-  padding: 100px;
-  background-color: #D4D2F3;
-
-}
 /* -------------footer------------- */
-div.footer{
-background-color: #0D2F1A;
-}
-div.credit{
-  margin: 50px;
-  padding: 100px;
-}
-div.disclamer{
-  margin: 50px;
-  padding: 100px;
-}
-/* -----------------Workers---------------------- */
+div.footer-container{
+  background-color: #004AC1;
+  padding: 4rem 0 4rem 0;
 
-div.lazulight{
-  margin: 10px;
-  padding: 15px;
-  margin-right: 80%;
-  background-color:#FFFFFF
+
 }
-div.obsydia{
-  margin: 10px;
-  padding: 15px;
-  margin-right: 80%;
-  background-color:#FFFFFF
+div.footer{
+  width: 100%;
+
+  background-color: #004AC1;
+  color: #E3F5DC;
+  display: flex;
+  padding-bottom: 4rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
-div.ethyria{
-  margin: 10px;
+div.footer-text{
+display: flex;
+flex-direction: column;
+margin-right: 5rem;
+  color: #E3F5DC;
+padding-bottom: 2rem;
+
+
+}
+
+.footer-text h2{
+  margin-bottom: 2rem;
+    color: #E3F5DC
+}
+/* -----------------shcefule---------------------- */
+
+
+div.gen{
+  margin: 20px;
   padding: 15px;
-  margin-right: 80%;
-  background-color:#FFFFFF
+width: 85px;
+    background-color: #FBA605;
+    border-radius: 5px;
+}
+#top-element {
+  margin-top: 30px;
+}
+
+div.times {
+padding: 50px;
+margin: auto;
+width: 100%;
+display: inline-block;
+text-align: center;
+
+
+}
+
+span {
+
+  justify-content: center;
+display: inline-block;
+margin: auto;
+font-size: 1.2rem;
+}
+
+.pst {
+width: 150px;
+margin: auto ;
+text-align: center;
+
+padding: 10px;
+border-radius: 5px;
+border-color: black;
+
+}
+.est {
+width: 150px;
+margin: auto;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+
+}
+
+.utc {
+width: 150px;
+margin: auto;
+text-align: center;
+
+padding: 10px;
+border-radius: 5px;
+
+}
+
+.jst {
+width: 150px;
+margin: auto;
+text-align: center;
+
+padding: 10px;
+border-radius: 5px;
+
+}
+
+
+/* Alll twtitter likng stuff */
+div.twitter{
+  /* display: inline;*/
+  /* position: static; */
+  display: flex;
+  justify-content: left;
+padding-left: 10px;
+margin: auto;
 }
