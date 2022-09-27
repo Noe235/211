@@ -1,0 +1,43 @@
+body {
+  background-color:  #7E4EAC; /*url("name");
+  /* background-repeat:  */
+}
+
+h1 {
+  color: #FFFFFF;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Ephesis', cursive;
+}
+
+h2{
+  color: #95C8D8;
+  background-color: #000000;
+padding: 10px;
+  margin-left: 10% ;
+  margin-right: 10% ;
+  text-decoration: underline;
+  text-align: center;
+
+
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+p.specialparagraph{
+  color:#FFFFFF;
+  text-align:center;
+  padding-left: 10px;
+  margin:10px;
+  border: 10px inset #505050;
+  border-radius: 20px;
+}
+
+div.mydiv {
+  background-color:#002020;
+color: #FFFFFF;
+width: 60%;
+
+}
